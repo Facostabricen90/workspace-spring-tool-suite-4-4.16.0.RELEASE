@@ -1,0 +1,5 @@
+package com.misiontic.celuplanet.services.interfaces;
+
+public interface IcellphoneService {
+
+}

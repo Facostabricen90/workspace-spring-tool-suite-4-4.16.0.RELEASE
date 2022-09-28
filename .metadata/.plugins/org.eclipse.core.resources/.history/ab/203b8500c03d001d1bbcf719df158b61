@@ -1,0 +1,30 @@
+#slogan{
+    width: 78rem;
+    padding: 9rem 0rem 12rem 0rem;
+    margin: 3rem 0rem 2rem 1rem;
+    text-align: center;
+    counter-increment: 1rem;
+}
+
+#imagenSlogan{
+    margin-top: 4rem;
+    height: 420px;
+    margin-right: 2rem;
+    position: relative;
+}
+
+.boton-primario-de-compra{
+    margin: 1% 40%;
+    padding: 0rem 6rem;
+    text-align: center;
+    box-sizing: unset;
+    height: 48px;
+    width: 110px;
+    background-color: rgb(235, 235, 88);
+    border-color: rgb(235, 235, 88);
+}
+
+.navbar{
+	display:flex;
+	flex-direction: row;
+}

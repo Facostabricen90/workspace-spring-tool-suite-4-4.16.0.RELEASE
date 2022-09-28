@@ -1,0 +1,11 @@
+package com.misiontic.celuplanet.services.implement;
+
+import org.springframework.stereotype.Service;
+
+import com.misiontic.celuplanet.services.interfaces.IcloudinaryService;
+
+@Service
+
+public class CloudinaryServiceImplement implements IcloudinaryService {
+	
+}

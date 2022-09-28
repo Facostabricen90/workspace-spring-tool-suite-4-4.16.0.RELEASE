@@ -1,0 +1,11 @@
+spring.datasource.url=jdbc:mysql://localhost:3306/celuplanet?useSSL=false&charSet=LATIN1useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC&allowPublicKeyRetrieval=true
+spring.datasource.dbname=celuplanet
+spring.datasource.username=root
+spring.datasource.password=root
+spring.datasource.driver-class-name=com.mysql.jdbc.Driver
+spring.main.allow-bean-definition-overriding=true
+spring.jpa.database-platform=org.hibernate.dialect.MySQL8Dialect
+spring.jpa.hibernate.sql=debug;
+spring.jpa.generate-ddl=true
+spring.jpa.hibernate.ddl-auto=create
+

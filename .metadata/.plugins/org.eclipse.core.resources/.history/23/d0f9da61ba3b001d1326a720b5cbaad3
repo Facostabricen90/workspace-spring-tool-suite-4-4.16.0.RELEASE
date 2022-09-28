@@ -1,0 +1,18 @@
+package com.misiontic.celuplanet.models;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+
+public class cellphoneModel {
+	private String image;
+	private String brand;
+	private String model;
+	private String version;
+	private Integer numberReference;
+	
+	
+}

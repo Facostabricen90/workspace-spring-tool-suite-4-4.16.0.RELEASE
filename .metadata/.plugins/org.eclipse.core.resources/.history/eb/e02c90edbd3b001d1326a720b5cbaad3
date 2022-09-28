@@ -1,0 +1,53 @@
+package com.misiontic.celuplanet.services.implement;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import com.misiontic.celuplanet.models.cellphoneDTOrequest;
+import com.misiontic.celuplanet.models.cellphoneDTOresponse;
+import com.misiontic.celuplanet.repositories.cellphoneRepository;
+import com.misiontic.celuplanet.services.interfaces.IcellphoneService;
+import com.misiontic.celuplanet.services.interfaces.IcloudinaryService;
+
+@Service
+
+public class cellphoneServiceImplement implements IcellphoneService{
+
+	@Autowired
+	private cellphoneRepository repositorycell;
+	
+	@Autowired
+	private IcloudinaryService cloudinaryService;
+	
+	@Override
+	public List<cellphoneDTOresponse> getCells() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<cellphoneDTOresponse> getCellsByModels() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Boolean saveCellphone(cellphoneDTOrequest cell) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public cellphoneDTOresponse getCellsById() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Boolean deleteCellsById(Integer numberReference) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+}

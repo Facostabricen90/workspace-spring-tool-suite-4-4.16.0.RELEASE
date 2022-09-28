@@ -1,0 +1,5 @@
+package com.misiontic.celuplanet.repositories;
+
+public interface cellphoneRepository {
+
+}
